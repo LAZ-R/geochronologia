@@ -1,0 +1,131 @@
+@import url("./variables.css");
+@import url("./fonts.css");
+
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--font-color-default);
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; /* fallback for Js load */
+    height: var(--doc-height);
+    width: 100%;
+    background-color: #000000;
+    font-size: 20px;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+h6 {
+    display: flex;
+    font-size: 20px;
+    padding: 8px 8px;
+}
+
+p {
+    padding: 0 var(--horizontal-padding);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    min-width: 100%;
+    height: fit-content;
+    
+    padding: 10px var(--horizontal-padding);
+
+    border-radius: 10px;
+}
+
+.container__top-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.dates-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.container__description-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%; 
+    min-height: 50px;
+    height: 50px;
+    overflow-y: hidden;
+}
+
+.container__more-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.eon-container {
+    background-color: #8a8a8a;
+    height: 120px;
+    overflow-y: hidden;
+}
+
+.era-container {
+    background-color: #a8a8a8;
+    margin-bottom: 40px;
+    height: 110px;
+    overflow-y: hidden;
+}
+
+.period-container {
+    background-color: #c0c0c0;
+    margin-bottom: 30px;
+    height: 100px;
+    overflow-y: hidden;
+}
+
+.serie-container {
+    background-color: #dadada;
+    margin-bottom: 20px;
+    height: 100px;
+    overflow-y: hidden;
+}
+
+.stage-container {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    height: 90px;
+    overflow-y: hidden;
+}
+
+
+
