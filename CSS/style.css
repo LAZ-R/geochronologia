@@ -127,5 +127,7 @@ p {
     overflow-y: hidden;
 }
 
-
+.clickable {
+    cursor: pointer;
+}
 
