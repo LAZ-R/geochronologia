@@ -16,25 +16,26 @@ window.goToHome = goToHome;
 const body = document.getElementById('body');
 
 EONS.forEach(eon => {
-    const eonDiv = LAZR.DOM.createElement('div', 'eon', 'container eon-container', ``);
+    const eonDiv = LAZR.DOM.createElement('div', '', 'container eon-container', ``);
 
-    const eonTopDiv = LAZR.DOM.createElement('div', 'eon', 'container__top-area clickable', `
+    const eonTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
         <h1>${eon.name}</h1>
         <p class="dates-container">de ${eon.start_date}<br>
         à ${eon.end_date}</p>`);
 
     eonTopDiv.onclick = () => {
-        eonDiv.style.height = eonDiv.style.height == "fit-content" ? "120px": "fit-content";
+        eonDiv.style.minHeight = eonDiv.style.minHeight == "fit-content" ? "115px": "fit-content";
+        eonDiv.style.height = eonDiv.style.height == "fit-content" ? "115px": "fit-content";
         eonDiv.style.overflowY = eonDiv.style.overflowY == "visible" ? "hidden": "visible";
     }
 
-    const eonDescDiv = LAZR.DOM.createElement('div', 'eon', 'container__description-area clickable', ``);
+    const eonDescDiv = LAZR.DOM.createElement('div', '', 'container__description-area clickable', ``);
     if (eon.description != '') {
         eonDescDiv.innerHTML = `
             <h6>Description</h6>
             <p>${eon.description}</p>`;
         eonDescDiv.onclick = () => {   
-            eonDescDiv.style.height = eonDescDiv.style.height == "fit-content" ? "50px": "fit-content";
+            eonDescDiv.style.height = eonDescDiv.style.height == "fit-content" ? "40px": "fit-content";
             eonDescDiv.style.overflowY = eonDescDiv.style.overflowY == "visible" ? "hidden": "visible";
         }
     }
@@ -44,28 +45,28 @@ EONS.forEach(eon => {
 
     if (eon.eras !== undefined) {
 
-        const eonMoreDiv = LAZR.DOM.createElement('div', 'eon', 'container__more-area', ``);
+        const eonMoreDiv = LAZR.DOM.createElement('div', '', 'container__more-area', ``);
 
         eon.eras.forEach(era => {
-            const eraDiv = LAZR.DOM.createElement('div', 'era', 'container era-container', ``);
+            const eraDiv = LAZR.DOM.createElement('div', '', 'container era-container', ``);
 
-            const eraTopDiv = LAZR.DOM.createElement('div', 'era', 'container__top-area clickable', `
+            const eraTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                 <h2>${era.name}</h2>
                 <p class="dates-container">de ${era.start_date}<br>
                 à ${era.end_date}</p>`);
 
             eraTopDiv.onclick = () => {
-                eraDiv.style.height = eraDiv.style.height == "fit-content" ? "110px": "fit-content";
+                eraDiv.style.height = eraDiv.style.height == "fit-content" ? "105px": "fit-content";
                 eraDiv.style.overflowY = eraDiv.style.overflowY == "visible" ? "hidden": "visible";
             }
 
-            const eraDescDiv = LAZR.DOM.createElement('div', 'era', 'container__description-area clickable', ``);
+            const eraDescDiv = LAZR.DOM.createElement('div', '', 'container__description-area clickable', ``);
             if (era.description != '') {
                 eraDescDiv.innerHTML = `
                     <h6>Description</h6>
                     <p>${era.description}</p>`;
                 eraDescDiv.onclick = () => {   
-                    eraDescDiv.style.height = eraDescDiv.style.height == "fit-content" ? "50px": "fit-content";
+                    eraDescDiv.style.height = eraDescDiv.style.height == "fit-content" ? "40px": "fit-content";
                     eraDescDiv.style.overflowY = eraDescDiv.style.overflowY == "visible" ? "hidden": "visible";
                 }
             }
@@ -75,27 +76,27 @@ EONS.forEach(eon => {
     
             if (era.periods !== undefined) {
 
-                const eraMoreDiv = LAZR.DOM.createElement('div', 'era', 'container__more-area', ``);
+                const eraMoreDiv = LAZR.DOM.createElement('div', '', 'container__more-area', ``);
     
                 era.periods.forEach(period => {
-                    const periodDiv = LAZR.DOM.createElement('div', 'period', 'container period-container', ``);
+                    const periodDiv = LAZR.DOM.createElement('div', '', 'container period-container', ``);
 
-                    const periodTopDiv = LAZR.DOM.createElement('div', 'period', 'container__top-area clickable', `
+                    const periodTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                         <h3>${period.name}</h3>
                         <p class="dates-container">de ${period.start_date}<br>
                         à ${period.end_date}</p>`);
         
                     periodTopDiv.onclick = () => {
-                        periodDiv.style.height = periodDiv.style.height == "fit-content" ? "100px": "fit-content";
+                        periodDiv.style.height = periodDiv.style.height == "fit-content" ? "95px": "fit-content";
                         periodDiv.style.overflowY = periodDiv.style.overflowY == "visible" ? "hidden": "visible";
                     }
-                    const periodDescDiv = LAZR.DOM.createElement('div', 'period', 'container__description-area clickable', ``);
+                    const periodDescDiv = LAZR.DOM.createElement('div', '', 'container__description-area clickable', ``);
                     if (period.description != '') {
                         periodDescDiv.innerHTML = `
                             <h6>Description</h6>
                             <p>${period.description}</p>`;
                         periodDescDiv.onclick = () => {   
-                            periodDescDiv.style.height = periodDescDiv.style.height == "fit-content" ? "50px": "fit-content";
+                            periodDescDiv.style.height = periodDescDiv.style.height == "fit-content" ? "40px": "fit-content";
                             periodDescDiv.style.overflowY = periodDescDiv.style.overflowY == "visible" ? "hidden": "visible";
                         }
                     }
@@ -104,12 +105,12 @@ EONS.forEach(eon => {
                     periodDiv.appendChild(periodDescDiv);
 
                     if (period.series !== undefined) {
-                        const periodMoreDiv = LAZR.DOM.createElement('div', 'era', 'container__more-area', ``);
+                        const periodMoreDiv = LAZR.DOM.createElement('div', '', 'container__more-area', ``);
 
                         period.series.forEach(serie => {
-                            const serieDiv = LAZR.DOM.createElement('div', 'serie', 'container serie-container', ``);
+                            const serieDiv = LAZR.DOM.createElement('div', '', 'container serie-container', ``);
 
-                            const serieTopDiv = LAZR.DOM.createElement('div', 'serie', 'container__top-area clickable', `
+                            const serieTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                                 <h4>${serie.name}</h4>
                                 <p class="dates-container">de ${serie.start_date}<br>
                                 à ${serie.end_date}</p>`);
@@ -119,13 +120,13 @@ EONS.forEach(eon => {
                                 serieDiv.style.overflowY = serieDiv.style.overflowY == "visible" ? "hidden": "visible";
                             }
 
-                            const serieDescDiv = LAZR.DOM.createElement('div', 'serie', 'container__description-area clickable', ``);
+                            const serieDescDiv = LAZR.DOM.createElement('div', '', 'container__description-area clickable', ``);
                             if (serie.description != '') {
                                 serieDescDiv.innerHTML = `
                                     <h6>Description</h6>
                                     <p>${serie.description}</p>`;
                                 serieDescDiv.onclick = () => {   
-                                    serieDescDiv.style.height = serieDescDiv.style.height == "fit-content" ? "50px": "fit-content";
+                                    serieDescDiv.style.height = serieDescDiv.style.height == "fit-content" ? "40px": "fit-content";
                                     serieDescDiv.style.overflowY = serieDescDiv.style.overflowY == "visible" ? "hidden": "visible";
                                 }
                             }
@@ -134,28 +135,28 @@ EONS.forEach(eon => {
                             serieDiv.appendChild(serieDescDiv);
             
                             if (serie.stages !== undefined) {
-                                const serieMoreDiv = LAZR.DOM.createElement('div', 'era', 'container__more-area', ``);
+                                const serieMoreDiv = LAZR.DOM.createElement('div', '', 'container__more-area', ``);
 
                                 serie.stages.forEach(stage => {
-                                    const stageDiv = LAZR.DOM.createElement('div', 'stage', 'container stage-container', ``);
+                                    const stageDiv = LAZR.DOM.createElement('div', '', 'container stage-container', ``);
 
-                                    const stageTopDiv = LAZR.DOM.createElement('div', 'stage', 'container__top-area clickable', `
+                                    const stageTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                                         <h5>${stage.name}</h5>
                                         <p class="dates-container">de ${stage.start_date}<br>
                                         à ${stage.end_date}</p>`);
                         
                                     stageTopDiv.onclick = () => {
-                                        stageDiv.style.height = stageDiv.style.height == "fit-content" ? "90px": "fit-content";
+                                        stageDiv.style.height = stageDiv.style.height == "fit-content" ? "85px": "fit-content";
                                         stageDiv.style.overflowY = stageDiv.style.overflowY == "visible" ? "hidden": "visible";
                                     }
         
-                                    const stageDescDiv = LAZR.DOM.createElement('div', 'stage', 'container__description-area clickable', ``);
+                                    const stageDescDiv = LAZR.DOM.createElement('div', '', 'container__description-area clickable', ``);
                                     if (stage.description != '') {
                                         stageDescDiv.innerHTML = `
                                             <h6>Description</h6>
                                             <p>${stage.description}</p>`;
                                         stageDescDiv.onclick = () => {   
-                                            stageDescDiv.style.height = stageDescDiv.style.height == "fit-content" ? "50px": "fit-content";
+                                            stageDescDiv.style.height = stageDescDiv.style.height == "fit-content" ? "40px": "fit-content";
                                             stageDescDiv.style.overflowY = stageDescDiv.style.overflowY == "visible" ? "hidden": "visible";
                                         }
                                     }

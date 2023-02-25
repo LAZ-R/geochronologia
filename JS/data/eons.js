@@ -847,20 +847,20 @@ export const EONS = [
             "series":[
               {
                 "name":"Paléocène",
-                "start_date":"",
-                "end_date":"",
+                "start_date":"± -66,0 millions d'années",
+                "end_date":"± -56,0 millions d'années",
                 "description":``
               },
               {
                 "name":"Éocène",
-                "start_date":"",
-                "end_date":"",
+                "start_date":"± -56,0 millions d'années",
+                "end_date":"± -33,9 millions d'années",
                 "description":``
               },
               {
                 "name":"Oligocène",
-                "start_date":"",
-                "end_date":"",
+                "start_date":"± -33,9 millions d'années",
+                "end_date":"± -23,03 millions d'années",
                 "description":``
               }
             ]
@@ -876,14 +876,14 @@ export const EONS = [
             "series":[
               {
                 "name":"Miocène",
-                "start_date":"",
-                "end_date":"",
+                "start_date":"± -23,03 millions d'années",
+                "end_date":"± -5,33 millions d'années",
                 "description":``
               },
               {
                 "name":"Pliocène",
-                "start_date":"",
-                "end_date":"",
+                "start_date":"± -5,33 millions d'années",
+                "end_date":"± -2,58 millions d'années",
                 "description":``
               }
             ]
