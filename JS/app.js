@@ -20,8 +20,8 @@ EONS.forEach(eon => {
 
     const eonTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
         <h1>${eon.name}</h1>
-        <p class="dates-container">de ${eon.start_date}<br>
-        à ${eon.end_date}</p>`);
+        <p class="dates-container">de  ${eon.start_date}<br>
+        à  ${eon.end_date}</p>`);
 
     eonTopDiv.onclick = () => {
         eonDiv.style.minHeight = eonDiv.style.minHeight == "fit-content" ? "115px": "fit-content";
@@ -52,8 +52,8 @@ EONS.forEach(eon => {
 
             const eraTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                 <h2>${era.name}</h2>
-                <p class="dates-container">de ${era.start_date}<br>
-                à ${era.end_date}</p>`);
+                <p class="dates-container">de  ${era.start_date}<br>
+                à  ${era.end_date}</p>`);
 
             eraTopDiv.onclick = () => {
                 eraDiv.style.minHeight = eraDiv.style.minHeight == "fit-content" ? "105px": "fit-content";
@@ -84,8 +84,8 @@ EONS.forEach(eon => {
 
                     const periodTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                         <h3>${period.name}</h3>
-                        <p class="dates-container">de ${period.start_date}<br>
-                        à ${period.end_date}</p>`);
+                        <p class="dates-container">de  ${period.start_date}<br>
+                        à  ${period.end_date}</p>`);
         
                     periodTopDiv.onclick = () => {
                         periodDiv.style.minHeight = periodDiv.style.minHeight == "fit-content" ? "95px": "fit-content";
@@ -114,8 +114,8 @@ EONS.forEach(eon => {
 
                             const serieTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                                 <h4>${serie.name}</h4>
-                                <p class="dates-container">de ${serie.start_date}<br>
-                                à ${serie.end_date}</p>`);
+                                <p class="dates-container">de  ${serie.start_date}<br>
+                                à  ${serie.end_date}</p>`);
                 
                             serieTopDiv.onclick = () => {
                                 serieDiv.style.minHeight = serieDiv.style.minHeight == "fit-content" ? "90px": "fit-content";
@@ -145,8 +145,8 @@ EONS.forEach(eon => {
 
                                     const stageTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                                         <h5>${stage.name}</h5>
-                                        <p class="dates-container">de ${stage.start_date}<br>
-                                        à ${stage.end_date}</p>`);
+                                        <p class="dates-container">de  ${stage.start_date}<br>
+                                        à  ${stage.end_date}</p>`);
                         
                                     stageTopDiv.onclick = () => {
                                         stageDiv.style.minHeight = stageDiv.style.minHeight == "fit-content" ? "85px": "fit-content";

@@ -1,7 +1,7 @@
 export const EONS = [
   {
     "name":"Hadéen",
-    "start_date":"Formation de la Terre",
+    "start_date":"± -4,6 milliards d'années",
     "end_date":"± -4,0 milliards d'années",
     "description":`Il est difficile de déterminer l'état de la biodiversité durant l'éon Hadéen car les conditions environnementales étaient très différentes de celles que nous connaissons aujourd'hui. L'éon Hadéen s'étend de la formation de la Terre il y a environ 4,6 milliards d'années jusqu'à il y a environ 4 milliards d'années. Au cours de cette période, la surface de la Terre était très instable et soumise à des conditions extrêmes telles que des bombardements météoritiques massifs, des éruptions volcaniques continues et une atmosphère riche en gaz toxiques tels que le méthane, l'ammoniac et le dioxyde de carbone.<br>
     <br>Il n'y avait donc probablement pas de vie complexe telle que nous la connaissons aujourd'hui durant cette période. Cependant, des études récentes ont suggéré que des micro-organismes tels que les bactéries et les archées ont pu émerger dès la fin de l'éon Hadéen et ont commencé à se développer dans des environnements extrêmes tels que les sources chaudes sous-marines et les environnements volcaniques. Ces formes de vie simples ont joué un rôle crucial dans la formation de la biosphère primitive et ont été les précurseurs de la diversité biologique que nous connaissons aujourd'hui.`
@@ -35,7 +35,9 @@ export const EONS = [
         "name":"Paléozoïque",
         "start_date":"± -542 millions d'années",
         "end_date":"± -251 millions d'années",
-        "description": ``,
+        "description": `Le Paléozoïque, également connu sous le nom d'ère primaire, est une période marquée par des évolutions importantes dans la biodiversité. Au début de cette période, il y a environ 541 millions d'années, les formes de vie étaient très simples. Les premières formes de vie connues étaient des micro-organismes et des algues. Puis, au cours du Cambrien, de nouvelles formes de vie sont apparues, telles que les trilobites, les mollusques et les échinodermes. Au cours de l'Ordovicien, les premiers poissons ont émergé, tandis que le Silurien a vu l'apparition des premiers insectes et des premières plantes vasculaires.<br>
+        <br>Au cours du Dévonien, la vie sur Terre s'est considérablement diversifiée, avec l'apparition des premiers arbres, des ammonites et des premiers amphibiens. Au Carbonifère, les forêts ont prospéré et ont donné naissance à des réserves de charbon. À la fin du Permien, la biodiversité a culminé avec l'apparition des premiers mammifères et des premiers reptiles.<br>
+        <br>L'évolution de la biodiversité du Paléozoïque est donc marquée par une augmentation progressive et constante des formes de vie, de la simple algue à des animaux complexes tels que les mammifères et les reptiles. Cette diversification a donné lieu à des écosystèmes plus complexes et plus interconnectés, formant ainsi la base de la vie sur Terre telle que nous la connaissons aujourd'hui.`,
         "periods":[
           {
             "name":"Cambrien",
@@ -151,19 +153,19 @@ export const EONS = [
             <br>En résumé, l'Ordovicien est caractérisé par une diversification continue de la vie marine, avec des groupes tels que les trilobites, les brachiopodes, les mollusques et les coraux durs qui prospéraient. Des formes de vie émergentes telles que les poissons, les plantes primitives et les arthropodes terrestres ont également commencé à apparaître.`,
             "series":[
               {
-                "name":"Inférieur",
+                "name":"Ordovicien Inférieur",
                 "start_date":"± -485,4 millions d'années",
                 "end_date":"± -470,0 millions d'années",
                 "description":``,
                 "stages":[
                   {
-                    "name":"Trémadocien",
+                    "name":"Ordovicien Trémadocien",
                     "start_date":"± -485,4 millions d'années",
                     "end_date":"± -477,7 millions d'années",
                     "description":``
                   },
                   {
-                    "name":"Floien",
+                    "name":"Ordovicien Floien",
                     "start_date":"± -477,7 millions d'années",
                     "end_date":"± -470,0 millions d'années",
                     "description":``
@@ -548,7 +550,10 @@ export const EONS = [
         "name":"Mésozoïque",
         "start_date":"± -251 millions d'années",
         "end_date":"± -66 millions d'années",
-        "description": ``,
+        "description": `Le Mésozoïque, également connu sous le nom d'ère des dinosaures, a connu une incroyable progression de la biodiversité, notamment dans la faune. Au début du Trias, les seuls vertébrés terrestres étaient des reptiles primitifs, mais au fil du temps, les dinosaures ont évolué et ont fini par dominer les écosystèmes terrestres. Les mammifères étaient également présents, mais restaient relativement petits.<br>
+        <br>Au Jurassique, les dinosaures ont continué à prospérer, avec des espèces comme les stégosaures et les diplodocus. Les mammifères ont également commencé à se diversifier, mais ont toujours été dominés par les reptiles. Le Jurassique moyen est également connu pour la diversification des ptérosaures, les reptiles volants.<br>
+        <br>Au Crétacé, les dinosaures étaient à leur apogée, avec des espèces comme le tyrannosaure et le tricératops. Les mammifères ont commencé à devenir plus grands et plus diversifiés, tandis que les oiseaux ont évolué à partir de dinosaures théropodes. La flore a également connu une évolution importante, avec la diversification des plantes à fleurs et l'apparition des premières forêts.<br>
+        <br>En somme, le Mésozoïque a été marqué par une incroyable progression de la biodiversité, avec l'évolution des dinosaures et l'apparition de nouvelles espèces de mammifères et d'oiseaux. La flore a également connu une évolution importante, contribuant à la formation d'écosystèmes plus complexes.`,
         "periods":[
           {
             "name":"Trias",
@@ -835,7 +840,10 @@ export const EONS = [
         "name":"Cénozoïque",
         "start_date":"± -66 millions d'années",
         "end_date":"aujourd'hui",
-        "description": ``,
+        "description": `Le Cénozoïque est une ère géologique qui a débuté il y a environ 66 millions d'années, après l'extinction des dinosaures à la fin du Crétacé. Au cours de cette période, la biodiversité a connu des changements majeurs, marqués par l'apparition de nouvelles espèces, la diversification de groupes existants et des extinctions massives.<br>
+        <br>Au début du Cénozoïque, les mammifères ont commencé à se diversifier pour occuper les niches écologiques laissées vacantes par les dinosaures. Des groupes comme les primates, les ongulés et les rongeurs sont apparus et ont continué à se diversifier tout au long de l'ère. Les oiseaux ont également évolué pour devenir une composante importante de la faune.<br>
+        <br>Au cours du Cénozoïque, la Terre a connu plusieurs périodes de refroidissement et de réchauffement climatique, ce qui a affecté la diversité de la flore et de la faune. Les écosystèmes marins ont été particulièrement touchés par les changements climatiques, avec des extinctions massives de baleines, de requins et d'autres animaux marins.<br>
+        <br>Malgré les perturbations climatiques et les extinctions massives, la biodiversité a continué de se développer au fil du temps. Les plantes à fleurs ont commencé à dominer la flore terrestre, tandis que les mammifères ont continué à se diversifier et à occuper de nouveaux habitats. Les humains, une espèce relativement récente, ont également évolué et ont eu un impact majeur sur la biodiversité de la planète.`,
         "periods":[
           {
             "name":"Paléogène",
@@ -849,19 +857,79 @@ export const EONS = [
                 "name":"Paléocène",
                 "start_date":"± -66,0 millions d'années",
                 "end_date":"± -56,0 millions d'années",
-                "description":``
+                "description":``,
+                "stages":[
+                  {
+                    "name":"Danien",
+                    "start_date":"± -66,0 millions d'années",
+                    "end_date":"± -61,6 millions d'années",
+                    "description":``
+                  },
+                  {
+                    "name":"Sélandien",
+                    "start_date":"± -61,6 millions d'années",
+                    "end_date":"± -59,2 millions d'années",
+                    "description":``
+                  },
+                  {
+                    "name":"Thanétien",
+                    "start_date":"± -59,2 millions d'années",
+                    "end_date":"± -56,0 millions d'années",
+                    "description":``
+                  }
+                ]
               },
               {
                 "name":"Éocène",
                 "start_date":"± -56,0 millions d'années",
                 "end_date":"± -33,9 millions d'années",
-                "description":``
+                "description":``,
+                "stages": [
+                  {
+                    "name": "Yprésien",
+                    "start_date": "± -56,0 millions d'années",
+                    "end_date": "± -47,8 millions d'années",
+                    "description": ""
+                  },
+                  {
+                    "name": "Lutétien",
+                    "start_date": "± -47,8 millions d'années",
+                    "end_date": "± -41,3 millions d'années",
+                    "description": ""
+                  },
+                  {
+                    "name": "Bartoniennien",
+                    "start_date": "± -41,3 millions d'années",
+                    "end_date": "± -37,2 millions d'années",
+                    "description": ""
+                  },
+                  {
+                    "name": "Priabonien",
+                    "start_date": "± -37,2 millions d'années",
+                    "end_date": "± -33,9 millions d'années",
+                    "description": ""
+                  }
+                ]
               },
               {
                 "name":"Oligocène",
                 "start_date":"± -33,9 millions d'années",
                 "end_date":"± -23,03 millions d'années",
-                "description":``
+                "description":``,
+                "stages": [
+                  {
+                    "name": "Rupélien",
+                    "start_date": "± -33,9 millions d'années",
+                    "end_date": "± -28,4 millions d'années",
+                    "description": ""
+                  },
+                  {
+                    "name": "Chattien",
+                    "start_date": "± -28,4 millions d'années",
+                    "end_date": "± -23,03 millions d'années",
+                    "description": ""
+                  }
+                ]
               }
             ]
           },
@@ -878,13 +946,65 @@ export const EONS = [
                 "name":"Miocène",
                 "start_date":"± -23,03 millions d'années",
                 "end_date":"± -5,33 millions d'années",
-                "description":``
+                "description":``,
+                "stages":[
+                  {
+                    "name":"Aquitanien",
+                    "start_date":"± -23,03 millions d'années",
+                    "end_date":"± -20,43 millions d'années",
+                    "description":``
+                  },
+                  {
+                    "name":"Burdigalien",
+                    "start_date":"± -20,43 millions d'années",
+                    "end_date":"± -15,97 millions d'années",
+                    "description":``
+                  },
+                  {
+                    "name":"Langhien",
+                    "start_date":"± -15,97 millions d'années",
+                    "end_date":"± -13,82 millions d'années",
+                    "description":``
+                  },
+                  {
+                    "name":"Serravallien",
+                    "start_date":"± -13,82 millions d'années",
+                    "end_date":"± -11,63 millions d'années",
+                    "description":``
+                  },
+                  {
+                    "name":"Tortonien",
+                    "start_date":"± -11,63 millions d'années",
+                    "end_date":"± -7,246 millions d'années",
+                    "description":``
+                  },
+                  {
+                    "name":"Messinien",
+                    "start_date":"± -7,246 millions d'années",
+                    "end_date":"± -5,333 millions d'années",
+                    "description":``
+                  }
+                ]
               },
               {
                 "name":"Pliocène",
                 "start_date":"± -5,33 millions d'années",
                 "end_date":"± -2,58 millions d'années",
-                "description":``
+                "description":``,
+                "stages":[
+                  {
+                      "name":"Zancléen",
+                      "start_date":"± -5,333 millions d'années",
+                      "end_date":"± -3,600 millions d'années",
+                      "description":``
+                  },
+                  {
+                      "name":"Piacenzien",
+                      "start_date":"± -3,600 millions d'années",
+                      "end_date":"± -2,580 millions d'années",
+                      "description":``
+                  }
+              ]
               }
             ]
           },
@@ -901,14 +1021,60 @@ export const EONS = [
               {
                 "name":"Pléistocène",
                 "start_date":"± -2,58 millions d'années",
-                "end_date":"± -11,7 milliers d'années",
-                "description":`Le Pléistocène est une période géologique caractérisée par des cycles glaciaires et interglaciaires, ce qui a influencé la diversité de la faune et de la flore. Cette période a vu l'émergence et la disparition de nombreuses espèces, dont certaines emblématiques telles que le mammouth laineux, le tigre à dents de sabre et l'homme de Néandertal. Les prairies se sont étendues et de nouvelles espèces d'herbivores sont apparues, telles que le bison et le cheval sauvage. Les arbres caducs ont également connu une expansion pendant les périodes interglaciaires. De nombreuses espèces animales et végétales ont survécu jusqu'à nos jours, mais d'autres ont malheureusement disparu, notamment en raison de l'activité humaine. Le Pléistocène a donc joué un rôle important dans l'évolution de la biodiversité de notre planète.`
+                "end_date":"± -11 700 ans (1950)",
+                "description":`Le Pléistocène est une période géologique caractérisée par des cycles glaciaires et interglaciaires, ce qui a influencé la diversité de la faune et de la flore. Cette période a vu l'émergence et la disparition de nombreuses espèces, dont certaines emblématiques telles que le mammouth laineux, le tigre à dents de sabre et l'homme de Néandertal. Les prairies se sont étendues et de nouvelles espèces d'herbivores sont apparues, telles que le bison et le cheval sauvage. Les arbres caducs ont également connu une expansion pendant les périodes interglaciaires. De nombreuses espèces animales et végétales ont survécu jusqu'à nos jours, mais d'autres ont malheureusement disparu, notamment en raison de l'activité humaine. Le Pléistocène a donc joué un rôle important dans l'évolution de la biodiversité de notre planète.`,
+                "stages":[
+                  {
+                    "name": "Gélasien",
+                    "start_date": "± -2,588 millions d'années",
+                    "end_date": "± -1,806 millions d'années",
+                    "description": ""
+                  },
+                  {
+                    "name": "Calabrien",
+                    "start_date": "± -1,806 millions d'années",
+                    "end_date": "± -781 000 ans (1950)",
+                    "description": ""
+                  },
+                  {
+                    "name": "Pléistocène moyen",
+                    "start_date": "± -781 000 ans (1950)",
+                    "end_date": "± -126 000 ans (1950)",
+                    "description": ""
+                  },
+                  {
+                    "name": "Pléistocène supérieur",
+                    "start_date": "± -126 000 ans (1950)",
+                    "end_date": "± -11 700 ans (1950)",
+                    "description": ""
+                  }
+                ]
               },
               {
                 "name":"Holocène",
-                "start_date":"± -11,7 milliers d'années",
-                "end_date":"présent",
-                "description":`L'Holocène est la période géologique actuelle, qui a débuté il y a environ 11 700 ans. La biodiversité de cette période est principalement caractérisée par l'expansion de l'homme et de la civilisation, ce qui a entraîné une forte pression sur les écosystèmes et la perte de nombreuses espèces animales et végétales. Cependant, certaines espèces ont réussi à s'adapter à l'homme et à prospérer dans les zones urbaines, telles que les pigeons, les rats et les mauvaises herbes. Dans les zones naturelles, on trouve encore des espèces emblématiques telles que les tigres, les éléphants, les gorilles, les ours polaires et les baleines à bosse. Toutefois, la plupart de ces espèces sont menacées par la perte de leur habitat naturel et le changement climatique. La conservation et la protection de la biodiversité sont donc des enjeux majeurs de notre époque.`
+                "start_date":"± -11 700 ans (1950)",
+                "end_date":"aujourd'hui",
+                "description":`L'Holocène est la période géologique actuelle, qui a débuté il y a environ 11 700 ans. La biodiversité de cette période est principalement caractérisée par l'expansion de l'homme et de la civilisation, ce qui a entraîné une forte pression sur les écosystèmes et la perte de nombreuses espèces animales et végétales. Cependant, certaines espèces ont réussi à s'adapter à l'homme et à prospérer dans les zones urbaines, telles que les pigeons, les rats et les mauvaises herbes. Dans les zones naturelles, on trouve encore des espèces emblématiques telles que les tigres, les éléphants, les gorilles, les ours polaires et les baleines à bosse. Toutefois, la plupart de ces espèces sont menacées par la perte de leur habitat naturel et le changement climatique. La conservation et la protection de la biodiversité sont donc des enjeux majeurs de notre époque.`,
+                "stages":[
+                  {
+                    "name":"Greenlandian",
+                    "start_date":"-11 700 ans (1950)",
+                    "end_date":"-8 236 ans (1950)",
+                    "description":""
+                  },
+                  {
+                    "name":"Nordgrippian",
+                    "start_date":"-8 236 ans (1950)",
+                    "end_date":"-4 250 ans (1950)",
+                    "description":""
+                  },
+                  {
+                    "name":"Meghalayan",
+                    "start_date":"-4 250 ans (1950)",
+                    "end_date":"aujourd'hui",
+                    "description":""
+                  }
+                ]
               }
             ]
           }

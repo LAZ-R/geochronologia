@@ -30,6 +30,14 @@ body {
     overflow-y: scroll;
 }
 
+.title {
+    color: #e6e6e6;
+    font-size: 35px;
+    margin: 10px;
+    font-weight: 500;
+    letter-spacing: -4px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
@@ -113,6 +121,11 @@ p {
     min-height: 115px;
     height: 115px;
     overflow-y: hidden;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.eon-container:last-of-type {
+    margin-bottom: 0;
 }
 
 .era-container {
@@ -122,6 +135,16 @@ p {
     margin-bottom: 40px;
     height: 105px;
     overflow-y: hidden; 
+}
+
+#Hadéen {
+    background-color: #e057ce;
+}
+#Archéen {
+    background-color: #ff5ea1;
+}
+#Protérozoïque {
+    background-color: #f8597e;
 }
 
 #Phanérozoïque {
