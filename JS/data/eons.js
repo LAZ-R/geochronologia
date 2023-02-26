@@ -159,13 +159,13 @@ export const EONS = [
                 "description":``,
                 "stages":[
                   {
-                    "name":"Ordovicien Trémadocien",
+                    "name":"Trémadocien",
                     "start_date":"± -485,4 millions d'années",
                     "end_date":"± -477,7 millions d'années",
                     "description":``
                   },
                   {
-                    "name":"Ordovicien Floien",
+                    "name":"Floien",
                     "start_date":"± -477,7 millions d'années",
                     "end_date":"± -470,0 millions d'années",
                     "description":``
@@ -173,7 +173,7 @@ export const EONS = [
                 ]
               },
               {
-                "name":"Moyen",
+                "name":"Ordovicien Moyen",
                 "start_date":"± -470,0 millions d'années",
                 "end_date":"± -458,4 millions d'années",
                 "description":``,
@@ -193,7 +193,7 @@ export const EONS = [
                 ]
               },
               {
-                "name":"Supérieur",
+                "name":"Ordovicien Supérieur",
                 "start_date":"± -458,4 millions d'années",
                 "end_date":"± -443,4 millions d'années",
                 "description":``,
