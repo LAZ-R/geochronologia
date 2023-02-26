@@ -124,10 +124,158 @@ p {
     overflow-y: hidden; 
 }
 
+#Phanérozoïque {
+    background-color: #a2d8f0;
+}
+
+#Paléozoïque {
+    background-color: #a9c6a8;
+}
+
+    #Cambrien {
+        background-color: #94ac72;
+    }
+        #Cambrien > .container__more-area > .container {
+            background-color: #b6ca99;
+        }
+            #Cambrien > .container__more-area > .container > .container__more-area > .container {
+                background-color: #d6e2c3;
+            }
+
+
+    #Ordovicien {
+        background-color: #4eaa96;
+    }
+        #Ordovicien > .container__more-area > .container {
+            background-color: #7cc2b4;
+        }
+            #Ordovicien > .container__more-area > .container > .container__more-area > .container {
+                background-color: #abd3cb;
+            }
+
+
+    #Silurien {
+        background-color: #bfe0cd;
+    }
+        #Silurien > .container__more-area > .container {
+            background-color: #d8f0e2;
+        }
+            #Silurien > .container__more-area > .container > .container__more-area > .container {
+                background-color: #ebf3ef;
+            }
+
+
+    #Dévonien {
+        background-color: #d49f51;
+    }
+        #Dévonien > .container__more-area > .container {
+            background-color: #dfb87e;
+        }
+            #Dévonien > .container__more-area > .container > .container__more-area > .container {
+                background-color: #eed7b4;
+            }
+
+
+    #Carbonifère {
+        background-color: #6eafb5;
+    }
+        #Carbonifère > .container__more-area > .container {
+            background-color: #9fcccf;
+        }
+            #Carbonifère > .container__more-area > .container > .container__more-area > .container {
+                background-color: #cbe2e4;
+            }
+
+
+    #Permien {
+        background-color: #ee765e;
+    }
+        #Permien > .container__more-area > .container {
+            background-color: #e99888;
+        }
+            #Permien > .container__more-area > .container > .container__more-area > .container {
+                background-color: #eec5bd;
+            }
+
+
+
+#Mésozoïque {
+    background-color: #5ac5e9;
+}
+    #Trias {
+        background-color: #bf78c0;
+    }
+        #Trias > .container__more-area > .container {
+            background-color: #dbabdd;
+        }
+            #Trias > .container__more-area > .container > .container__more-area > .container {
+                background-color: #e8c7e9;
+            }
+
+
+    #Jurassique {
+        background-color: #0cb8e7;
+    }
+        #Jurassique > .container__more-area > .container {
+            background-color: #69d1ee;
+        }
+            #Jurassique > .container__more-area > .container > .container__more-area > .container {
+                background-color: #aae5f5;
+            }
+
+
+    #Crétacé {
+        background-color: #95c562;
+    }
+        #Crétacé > .container__more-area > .container {
+            background-color: #b6db8e;
+        }
+            #Crétacé > .container__more-area > .container > .container__more-area > .container {
+                background-color: #d4ebc0;
+            }
+
+
+
+#Cénozoïque {
+    background-color: #e6d85c;
+}
+
+    #Paléogène {
+        background-color: #f8ac70;
+    }
+        #Paléogène > .container__more-area > .container {
+            background-color: #ffd1ae;
+        }
+            #Paléogène > .container__more-area > .container > .container__more-area > .container {
+                background-color: #ffe0c8;
+            }
+
+
+    #Néogène {
+        background-color: #fede1a;
+    }
+        #Néogène > .container__more-area > .container {
+            background-color: #ffee83;
+        }
+            #Néogène > .container__more-area > .container > .container__more-area > .container {
+                background-color: #fff6bb;
+            }
+
+
+    #Quaternaire {
+        background-color: #fff69b;
+    }
+        #Quaternaire > .container__more-area > .container {
+            background-color: #fffac8;
+        }
+            #Quaternaire > .container__more-area > .container > .container__more-area > .container {
+                background-color: #ffffff;
+            }
+
 .period-container {
     /* background-color: #ffffff33;
     backdrop-filter: blur(2px); */
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     margin-bottom: 30px;
     height: 95px;
     overflow-y: hidden;
@@ -136,7 +284,7 @@ p {
 .serie-container {
     /* background-color: #ffffff33;
     backdrop-filter: blur(2px); */
-    background-color: #e4e4e4;
+    /* background-color: #e4e4e4; */
     margin-bottom: 20px;
     height: 90px;
     overflow-y: hidden;

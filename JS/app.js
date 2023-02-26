@@ -16,7 +16,7 @@ window.goToHome = goToHome;
 const body = document.getElementById('body');
 
 EONS.forEach(eon => {
-    const eonDiv = LAZR.DOM.createElement('div', '', 'container eon-container', ``);
+    const eonDiv = LAZR.DOM.createElement('div', eon.name, 'container eon-container', ``);
 
     const eonTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
         <h1>${eon.name}</h1>
@@ -48,7 +48,7 @@ EONS.forEach(eon => {
         const eonMoreDiv = LAZR.DOM.createElement('div', '', 'container__more-area', ``);
 
         eon.eras.forEach(era => {
-            const eraDiv = LAZR.DOM.createElement('div', '', 'container era-container', ``);
+            const eraDiv = LAZR.DOM.createElement('div', era.name, 'container era-container', ``);
 
             const eraTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                 <h2>${era.name}</h2>
@@ -56,6 +56,7 @@ EONS.forEach(eon => {
                 à ${era.end_date}</p>`);
 
             eraTopDiv.onclick = () => {
+                eraDiv.style.minHeight = eraDiv.style.minHeight == "fit-content" ? "105px": "fit-content";
                 eraDiv.style.height = eraDiv.style.height == "fit-content" ? "105px": "fit-content";
                 eraDiv.style.overflowY = eraDiv.style.overflowY == "visible" ? "hidden": "visible";
             }
@@ -79,7 +80,7 @@ EONS.forEach(eon => {
                 const eraMoreDiv = LAZR.DOM.createElement('div', '', 'container__more-area', ``);
     
                 era.periods.forEach(period => {
-                    const periodDiv = LAZR.DOM.createElement('div', '', 'container period-container', ``);
+                    const periodDiv = LAZR.DOM.createElement('div', period.name, 'container period-container', ``);
 
                     const periodTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                         <h3>${period.name}</h3>
@@ -87,6 +88,7 @@ EONS.forEach(eon => {
                         à ${period.end_date}</p>`);
         
                     periodTopDiv.onclick = () => {
+                        periodDiv.style.minHeight = periodDiv.style.minHeight == "fit-content" ? "95px": "fit-content";
                         periodDiv.style.height = periodDiv.style.height == "fit-content" ? "95px": "fit-content";
                         periodDiv.style.overflowY = periodDiv.style.overflowY == "visible" ? "hidden": "visible";
                     }
@@ -108,7 +110,7 @@ EONS.forEach(eon => {
                         const periodMoreDiv = LAZR.DOM.createElement('div', '', 'container__more-area', ``);
 
                         period.series.forEach(serie => {
-                            const serieDiv = LAZR.DOM.createElement('div', '', 'container serie-container', ``);
+                            const serieDiv = LAZR.DOM.createElement('div', serie.name, 'container serie-container', ``);
 
                             const serieTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                                 <h4>${serie.name}</h4>
@@ -116,6 +118,7 @@ EONS.forEach(eon => {
                                 à ${serie.end_date}</p>`);
                 
                             serieTopDiv.onclick = () => {
+                                serieDiv.style.minHeight = serieDiv.style.minHeight == "fit-content" ? "90px": "fit-content";
                                 serieDiv.style.height = serieDiv.style.height == "fit-content" ? "90px": "fit-content";
                                 serieDiv.style.overflowY = serieDiv.style.overflowY == "visible" ? "hidden": "visible";
                             }
@@ -138,7 +141,7 @@ EONS.forEach(eon => {
                                 const serieMoreDiv = LAZR.DOM.createElement('div', '', 'container__more-area', ``);
 
                                 serie.stages.forEach(stage => {
-                                    const stageDiv = LAZR.DOM.createElement('div', '', 'container stage-container', ``);
+                                    const stageDiv = LAZR.DOM.createElement('div', stage.name, 'container stage-container', ``);
 
                                     const stageTopDiv = LAZR.DOM.createElement('div', '', 'container__top-area clickable', `
                                         <h5>${stage.name}</h5>
@@ -146,6 +149,7 @@ EONS.forEach(eon => {
                                         à ${stage.end_date}</p>`);
                         
                                     stageTopDiv.onclick = () => {
+                                        stageDiv.style.minHeight = stageDiv.style.minHeight == "fit-content" ? "85px": "fit-content";
                                         stageDiv.style.height = stageDiv.style.height == "fit-content" ? "85px": "fit-content";
                                         stageDiv.style.overflowY = stageDiv.style.overflowY == "visible" ? "hidden": "visible";
                                     }
