@@ -2,7 +2,7 @@ import  * as LAZR from './lazR/lazR.js';
 import { EONS } from './data/eons.js';
 
 const titleElement = document.getElementById('title');
-titleElement.innerHTML = `GEOCHRONOLOGIA`;
+titleElement.innerHTML = `GÉOCHRONOLOGIA`;
 
 LAZR.DOM.setViewportSize();
 
